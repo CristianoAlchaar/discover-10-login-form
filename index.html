@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>camp.in</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" type="image/x-icon" href="./assets/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="./src/index.css">
+    
+</head>
+<body>
+    <main>
+        <header>
+            <a href=><img src="./assets/logo.svg" alt="logo"></a>       
+        </header>
+        <div id="form-container">
+            <form>
+                <div class="form-header-container">
+                    <h1><img src="./assets/log-in.svg" alt="->"/> Faça seu login</h1>
+                    <p>Entre com suas informações de cadastro.</p>
+                </div>
+                <label for="email">E-mail:</label>
+                <div class="input-icon">
+                    <i class="fa icon"><img id="mail-icon" src="./assets/mail.svg"></i>
+                    <input class="input-field" type="email" id="email" name="email" placeholder="Digite seu e-mail">
+                </div>
+                <label for="password">Senha:</label>
+                <div class="input-icon">
+                    <i class="fa icon"><img id="password-icon" src="./assets/lock.svg"></i>
+                    <input class="input-field" type="password" id="password" name="password" placeholder="Digite sua senha">
+                </div>
+                <div class="remind-container">
+                    <span><input type="checkbox" id="cbxremind-me" name="remind-me" value="remind-me">
+                    <label for="remind-me">Lembre-me</label></span>
+                    <a href="">Esqueci minha senha</a>
+                </div>
+                <button id="btn-get-in">Entrar</button>
+                <span id="spn-register">Não tem uma conta? Registre-se</span>
+            </form>
+        </div>
+    </main>
+    <div id="aside-image"></div>
+    <script src="./src/script.js"></script>
+</body>
+</html>
